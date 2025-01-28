@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Perry's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/21ad0afbec.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                <h1>//<span>Steve</span>.</h1>
+                </div>
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Aspiring Software Engineer</p>
+                <h1>Hi, I'm <span>Steve</span><br> from Miami</h1>
+            </div>
+            </div>
+        </div>
+        <div id="about">
+        <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+                <img src="Hoodie%20Pic.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Steve Roy Perry, and I recently graduated (August 2024) with a Computer Science Bachelors Degree from Florida International University in Miami, FL. Diversity is something you embrace from an early age when you're from South Florida, and it fosters the growth of an enquiring and interested mind. My interest for a wide range of subjects, from science, AI, and technology to sports and music, has brought me to this wonderful vocation.
+                    <br>
+                    <br>    
+                    I am an aspiring Software Engineer with a strong sense of ambition and drive who regularly demonstrates outstanding leadership and problem-solving abilities at the individual, group, and organizational levels. I take pride in being highly adaptive, with the capacity to succeed in the face of difficulty. Aside from that, I am a tenacious and well-behaved professional seeking to contribute my knowledge in technology and ability to foster teamwork to an innovative setting. Whether I'm developing the next big software or working on the most challenging global issues, my mission is to use my abilities to make the world a better place than when I arrived.
+                    </p>
+                    
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces.</li>
+                        <li><span>Database Management</span><br>Designing, implementing, and optimizing relational and NoSQL databases.</li>
+                         <li><span>App Development</span><br>Designing iOS/Android applications as team leader in group settings.</li>
+                         <li><span>Backend Knowledge</span><br>4 years studying time/space complexities and implementing algorithms to create the most efficient running programs possible while declaring least amount of data.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fall 2022</span><br>Attended first Shell Hacks Hackathon</li>
+                         <li><span>Fall 2023</span><br>Shell Hacks 2023</li>
+                        <li><span>Summer 2024</span><br>Software Engineer internship at Polarix LLC.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2022</span><br>A.A in Computer Science at Miami-Dade College</li>
+                         <li><span>2022-2024</span><br>Bachelors Degree in Computer Science at Florida International University</li>
+                        <li><span>2024</span><br>Voluntarily took MIT online courses in Data Structures and Algorithm techniques to strengthen my fundamentals and be the best candidate I could be for Software Engineering positions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>The creation of user-friendly interfaces.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                    <p>Designing websites curated to client's requests.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                   <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                    <p>Designing iOS/Android applications curated to client's requests.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+            <div class="work">
+                <img src="health%20app%20stock.jpeg">
+                <div class="layer">
+                <h3>Health App</h3>
+                    <p>This app contains many medical procedures information and connects you with the closest medical clinic to you as well as having a medical storefront.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                <img src="AMAZON%20LOGO.webp">
+                    <div class="layer">
+                <h3>Full-Stack Amazon Clone</h3>
+                    <p>Developed a feature-rich Amazon clone using JavaScript, Next.js, and the react framework.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                <img src="personal%20portfolio%20image.jpeg">
+                    <div class="layer">
+                <h3>Portfolio Website</h3>
+                    <p>I built and deployed this website to showcase my personal projects and achievements.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>steveroyperry@yahoo.com</p>
+                <p> <i class="fa-solid fa-phone"></i>(786) 538-6431</p>
+                <div class="social-icons">
+                <a href="https://linkedin.com/in/steve-perry-342686284/"><i class="fa-brands fa-linkedin"></i></a>   
+                </div>
+                <a href="Steve%20Roy%20Perry%20Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+            </div>
+            <div class="copyright">
+            <p>Copyright © Steve Perry. 2023</p>
+            </div>
+        </div>
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+        </script>
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        </script>
+        
+      <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwsHDKAXCDUKDXNZyGzc2umfa9heWJB_Auq12M_NHLLexMs1SfHpVNf1yD2jks2MbXQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML = "Message sent succesfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
